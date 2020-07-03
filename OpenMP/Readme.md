@@ -1,4 +1,4 @@
-<h4>En este parte se encuentra los siguientes archivos:</h4>
+##<h4>En este parte se encuentra los siguientes archivos:</h4>
 
 heated_plate.sbatch -> archivo sbatch y slurm que gestiona la parte de la reserva de los recursos de Guane <br/>
 omp_heated_plate.c -> Código de paralelización (solución basada en https://people.sc.fsu.edu/~jburkardt/c_src/heated_plate_openmp/heated_plate_openmp.html) del programa de heated_place para resolver la distribución de la temperatura en estado estacionario sobre una placa rectangular. <br/>
