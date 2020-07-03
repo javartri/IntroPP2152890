@@ -4,7 +4,7 @@
 - omp_heated_plate.c -> Código de paralelización (solución basada en https://people.sc.fsu.edu/~jburkardt/c_src/heated_plate_openmp/heated_plate_openmp.html) del programa deheated_place para resolver la distribución de la temperatura en estado estacionario sobre una placa rectangular. <br/>
 - output_heated_plate.txt -> resultados obtenidos después de ejecutar dicho código en Guane y/o local.<br/>
 
-###### El primer paso consiste en compilar en Guane utilizando la siguiente instrucción: **gcc -lm -fopenmp omp_heated_plate.c -o omp_heated_plate** (hago uso de -lm porque se utiliza o se trabaja con operaciones matemáticas). Con esto se deja listo el ejecutable para luego ser utilizado tanto en local como en guane.
+El primer paso consiste en compilar en Guane utilizando la siguiente instrucción: **gcc -lm -fopenmp omp_heated_plate.c -o omp_heated_plate** (hago uso de -lm porque se utiliza o se trabaja con operaciones matemáticas). Con esto se deja listo el ejecutable para luego ser utilizado tanto en local como en guane.
 Localmente
 Continuamente en el espacio local ejecutamos el ejecutable que se acaba de generar (omp_heated_plate), solo basta en escribir la siguiente línea: ./omp_heated_plate
 
