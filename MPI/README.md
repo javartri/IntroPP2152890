@@ -6,6 +6,7 @@ MPI es un estándar de programación en paralelo mediante paso de mensajes que p
 - mpi_heated_plate.c -> Código de paralelización del programa de heated_place para resolver la distribución de la temperatura en estado estacionario sobre una placa rectangular. <br/>
 - heated_plate_mpi.sbatch -> archivo sbatch y slurm que gestiona la parte de la reserva de los recursos de Guane. <br/>
 - output_heated_plate_mpi.txt -> resultados obtenidos después de ejecutar dicho código en Guane.<br/>
+- comparacion_de_tiempos -> archivo donde muestra el tiempo obtenido de la solución en Serial (archivo original), tiempo de la solución en OpenMP y el tiempo de corrida de la solución con paso de mensajes (MPI)
 
 Antes de proceder a compilar nuestro programa, se debe cargar el compilador de MPI devtools/mpi/openmpi/3.1.4<br/>
 Después de esto, se compila en GUANE utilizando la siguiente instrucción: **mpicc mpi_heated_plate.c -o mpi_heated_plate.** Con esto se deja listo el ejecutable para luego ser utilizado tanto en local como en guane. <br/>
