@@ -1,0 +1,5 @@
+NROWS: 500
+NCOLS: 500
+Final temperature distribution over heated plate:
+  0.224768 segundos de ejecucion 
+  0.224690 segundos de ejecucion 

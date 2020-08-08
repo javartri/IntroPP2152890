@@ -1,0 +1,14 @@
+
+  
+  EJECUCION EN SERIAL
+  TIEMPO DE EJECUCION = 58.380000
+   
+  
+  EJECUCION EN OMP
+  Tiempo de ejecuciòn = 13.156002
+  
+  EJECUCION EN MPI
+  4.224768 segundos de ejecucion
+
+ 
+ 
